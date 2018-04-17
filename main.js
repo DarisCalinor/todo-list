@@ -1,4 +1,4 @@
-// Check off specific todo by click
+﻿// Check off specific todo by click
 const todo = document.querySelector("ul");
 todo.addEventListener("click", function(e) {
   e.target.classList.toggle("completed");
